@@ -40,16 +40,15 @@ const AboutPage = () => {
             {/* BIOGRAPHY TITLE */}
             <h2 className="font-bold text-2xl">BIOGRAPHY</h2>
             {/* BIOGRAPHY DESC */}
-            <p className="text-lg">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-              harum quibusdam cupiditate nobis accusamus sed aut aperiam,
-              reiciendis numquam! Voluptas voluptatibus obcaecati dolore itaque
-              suscipit! Vel doloremque numquam quam nihil.
-            </p>
+            <div className="text-base">
+             <p>I am <strong>mel turham</strong>, a third-year computer science student at <strong>The Cote Universityn  in cameroon</strong>, passionate about software development.</p>
+<p>Specializing in web and mobile development, I have gained expertise in &quot;JavaScript, React/Next.js, Python/Django&quot;, and I strive to create innovative digital solutions.</p>
+<p>My goal is to contribute effectively to large-scale projects while continuing to grow in this ever-evolving field.</p>
+            </div>
             {/* BIOGRAPHY QUOTE */}
-            <span className="italic">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            </span>
+            <blockquote className='italic'>
+                <q>Success is the result of perseverance and hard work.</q>
+            </blockquote>
             {/* BIOGRAPHY SIGN SVG*/}
             <div className="self-end">
               <svg
